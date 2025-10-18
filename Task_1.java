@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.util.Scanner;
-//login Form
-//here
+ //login Form
+ //here
      class LoginForm {
         static String user = "User1234";
         static String password = "password12";
@@ -31,8 +31,8 @@ import java.util.Scanner;
             }
         }
     }
-// Cancel Form
-//here
+ // Cancel Form
+ //here
      class CancelForm {
         public void cancelReservation() {
             Scanner scanner = new Scanner(System.in);
@@ -51,8 +51,8 @@ import java.util.Scanner;
             }
         }
     }
-// Reserve form
-// here
+ // Reserve form
+ // here
      class Reserv_Form{
         public void makeReservation() {
             Scanner scanner = new Scanner(System.in);
@@ -92,7 +92,7 @@ import java.util.Scanner;
             System.out.println("Route: " + origin + " to " + destination);
             System.out.println("Your PNR Number: " + pnrNumber);
         }}
-// The main method here
+ // The main method here
     public class Task_1 {
 
         public static void main(String[] args) {
